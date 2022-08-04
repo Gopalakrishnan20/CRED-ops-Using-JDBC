@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Product Management</title>
+</head>
+<body>
+	<h4>INSERT</h4>
+	<form action="InsertServlet" method="get">
+		Product Name:<input type=text name="pName"> Quantity:<input
+			type=number name="qty"> Price:<input type=number name="price">
+		Total<input type=number name="tot">
+		<button>Insert</button>
+	</form>
+	<br>
+	<h4>SELECT</h4>
+	<form action="RetriveServlet" method="get">
+		<button>Show Table</button>
+	</form>
+	<br>
+	<h4>UPDATE</h4>
+	<form action="UpdateServlet" method="get">
+		Enter the Product ID:<input type=number name="id"> 
+		ProductName:<input type=text name="pName"> 
+		Quantity:<input type=number name="qty"> 
+		Price:<input type=number name="price">
+		Total<input type=number name="tot">
+		<button>Update</button>
+	</form>
+	<br>
+	<h4>DELETE</h4>
+	<form action="DeleteServlet" method="get">
+		Enter the Product ID:<input type=number name="id">
+		<button>Delete</button>
+	</form>
+	<br>
+</body>
+</html>
